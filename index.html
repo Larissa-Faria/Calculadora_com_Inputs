@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3-Método mais atual</title>
+</head>
+<body>
+    <h1>Calculadora com inputs</h1>
+    <h2>Digite os números para realizar calculos!</h2>
+    <form>
+        <div>
+            <!-- For nome do id do input -->
+            <label for="input1">
+                Número 1
+            </label>
+            <input type="number" name="" id="input1">
+        </div>
+        <div>
+            <label for="input2">
+                Número 2
+            </label>
+            <input type="number" name="" id="input2">
+        </div>
+        <div>
+            <label for="input_resultado">
+                Resultado 
+            </label>
+            <input type="number" name="" id="input_resultado" disabled>
+        </div>
+            <button type="button" onclick="somar()">+Somar</button>
+            <button type="button" onclick="subtrair()">-Subtrair</button>
+            <button type="button" onclick="multiplicar()">*Multiplicar</button>
+    </form>
+    <script src="calculadoraMedia.js"></script>
+</body>
+</html>
